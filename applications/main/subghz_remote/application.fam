@@ -15,3 +15,19 @@ App(
     fap_description="SubGhz Remote, uses up to 5 .sub files",
     fap_category="Sub-Ghz",
 )
+
+# App(
+#     appid="subghz_remote_ofw",
+#     name="Sub-GHz Remote",
+#     apptype=FlipperAppType.EXTERNAL,
+#     entry_point="subghz_remote_app",
+#     requires=[
+#         "gui",
+#         "dialogs",
+#     ],
+#     stack_size=2 * 1024,
+#     fap_icon="icon.png",
+#     fap_description="SubGhz Remote, uses up to 5 .sub files",
+#     fap_category="Sub-Ghz",
+#     fap_icon_assets="icons",
+# )

@@ -6,7 +6,11 @@
 
 #include "helpers/txrx/subghz_txrx.h"
 
+#ifndef FW_ORIGIN_Official
 #include <assets_icons.h>
+#else
+#include <subghz_remote_ofw_icons.h>
+#endif
 
 #include "views/remote.h"
 #include "views/edit_menu.h"
